@@ -13,11 +13,17 @@ Collapsed:
 
 ## Install
 
+Download `Bar-Manager.zip` from the [latest release](https://github.com/kobe0938/bar-manager/releases/latest),
+unzip it, and drag `Bar Manager.app` to Applications. It runs on Apple Silicon and Intel, macOS 13 or later.
+
+The app is not notarized, so the first launch is blocked. Right-click the app and choose Open, or go to
+System Settings, Privacy & Security, and click Open Anyway. This only happens once.
+
+To build it yourself instead (needs the Xcode Command Line Tools):
+
 ```sh
 ./build.sh --install
 ```
-
-Needs the Xcode Command Line Tools. Builds `~/Applications/Bar Manager.app` and launches it.
 
 ## Use
 
